@@ -1,0 +1,11 @@
+components:
+  - name: "beta-e64ae923"
+    role: web
+    platform: "nodejs"
+    rootDirectory: "apps/beta-e64ae923"
+    path: "/"
+    run:
+      port: 8080
+      start: "node beta.mjs"
+      healthCheckPath: "/readyz"
+      healthCheckStatusCodes: [200]
