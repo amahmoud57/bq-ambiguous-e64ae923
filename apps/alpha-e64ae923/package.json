@@ -1,0 +1,7 @@
+{
+  "name": "alpha-e64ae923",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node alpha.mjs" }
+}
